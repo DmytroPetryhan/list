@@ -1,0 +1,52 @@
+body {
+  display: grid;
+  place-items: center;
+}
+.input_form {
+  display: grid;
+  place-items: center;
+}
+.conteiner {
+  border: 5px solid rgb(12, 44, 10);
+  border-radius: 10px;
+  background-color: rgb(222, 197, 58);
+  min-height: 500px;
+  max-height: fit-content;
+  width: 500px;
+  flex-wrap: wrap-reverse;
+}
+
+.goods {
+  background-color: transparent;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.date {
+  background-color: transparent;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.bat {
+  margin-top: 20px;
+  background-color: grey;
+  border-radius: 5px;
+}
+li {
+  height: 17px;
+  margin: 20px;
+  border: 2px solid rgb(39, 146, 31);
+  border-radius: 5px;
+  background-color: rgb(206, 145, 22);
+}
+ul {
+  margin: 2px;
+}
+.divForContext {
+  background-color: rgb(117, 118, 109);
+  width: 100px;
+  height: 50px;
+  place-items: center;
+  border-radius: 3px;
+  border: 2px solid rgb(182, 117, 18);
+  display: none;
+}
